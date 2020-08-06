@@ -29,10 +29,10 @@ cursorclass=pymysql.cursors.DictCursor) # seriously? this is all it takes, you g
 def lambda_handler(event, context):
 
     # variables
-    client_name = 'null' 
-    reason = 'null'
-    creation_date = 0
-    state = 'Rejected'
+    #client_name = 'null' 
+    #reason = 'null'
+    #creation_date = 0
+    #state = 'Rejected'
 
     #dictonary to store values before send as JSON
 
