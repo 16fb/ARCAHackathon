@@ -20,6 +20,9 @@
 - inputs result of form from Approval officier, and updates database accordingly
 - calls sendSNS lambda function to sent notification of result
 
-## sendSNS
+### sendSNS
 - inputs result and phone number, sends a SMS message using AWS SNS
+
+### AWSRekognition
+- does text analysis on an image on aws S3
 
