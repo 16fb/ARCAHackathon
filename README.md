@@ -1,4 +1,4 @@
-### ARCAHackathon
+# ARCAHackathon
 > ARCA Hackathon Team anyh0w submission / prototype
 
 > Improving customer satisfaction and staff workload through AWS services for automation and easy access to information.
@@ -8,15 +8,15 @@
 
 
 
-### General Overview of Code
+## General Overview of Code
 
-## APIToRDS
+### APIToRDS
 - main code that get form infomation from Bizfile+, verifies the data and saves it onto RDS(mySQL)
 
-## getDataFromDashboard
+### getDataFromDashboard
 - upon receiving a GET request to API gateway from dashboard, reads data from RDS(mySQL) and returns it to dashboard
 
-## approvalResult
+### approvalResult
 - inputs result of form from Approval officier, and updates database accordingly
 - calls sendSNS lambda function to sent notification of result
 
